@@ -81,7 +81,7 @@ export const CreateTodoForm = () => {
 
         <button
           type="submit"
-          className="w-69 gap-2 rounded-full border border-gray-700 bg-gray-700 px-[15px] py-1 text-white"
+          className="font-manrope w-69 gap-2 rounded-full border border-gray-700 bg-gray-700 px-[15px] py-1 text-base font-normal text-white"
           disabled={isCreatingTodo}
         >
           Add

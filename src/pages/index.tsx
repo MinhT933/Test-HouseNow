@@ -33,7 +33,7 @@ const Index = () => {
           <button
             className={`mr-4 ${
               statusFilter === 'all'
-                ? ' text-blue-500 w-[67px] gap-2 rounded-full border bg-gray-700 px-[15px] py-2  font-semibold text-white'
+                ? ' text-blue-500 w-[67px] gap-2 rounded-full border bg-gray-700 px-[15px] py-2 font-normal text-white'
                 : 'w-[67px] rounded-full border border-gray-600 bg-white text-gray-500'
             }`}
             onClick={() => setStatusFilter('all')}
@@ -43,8 +43,8 @@ const Index = () => {
           <button
             className={`mr-4 ${
               statusFilter === 'completed'
-                ? 'text-blue-500 sm:w-104 gap-2 rounded-full border bg-gray-700 px-[15px] py-2  font-semibold text-white'
-                : 'sm:w-104 rounded-full border border-gray-600 bg-white px-[15px] py-2 text-gray-500'
+                ? 'text-blue-500 sm:w-104 font-manrope gap-2 rounded-full border bg-gray-700 px-[15px] py-2 text-base font-normal text-white'
+                : 'sm:w-104 font-manrope rounded-full border border-gray-600 bg-white px-[15px] py-2 text-base font-normal text-gray-500 '
             }`}
             onClick={() => setStatusFilter('completed')}
           >
@@ -53,8 +53,8 @@ const Index = () => {
           <button
             className={`mr-4 ${
               statusFilter === 'pending'
-                ? 'text-blue-500 sm:w-104 gap-2 rounded-full border bg-gray-700 px-[15px] py-2  font-semibold text-white'
-                : 'sm:w-104 rounded-full border border-gray-600 bg-white px-[15px] py-2 text-gray-500'
+                ? 'text-blue-500 sm:w-104 font-manrope gap-2 rounded-full border bg-gray-700 px-[15px]  py-2 text-base font-normal  text-white'
+                : 'sm:w-104 font-manrope rounded-full border border-gray-600 bg-white px-[15px] py-2 text-base font-normal text-gray-500'
             }`}
             onClick={() => setStatusFilter('pending')}
           >

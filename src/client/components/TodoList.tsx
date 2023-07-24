@@ -135,8 +135,10 @@ export const TodoList = ({
               </Checkbox.Indicator>
             </Checkbox.Root>
             <label
-              className={`block flex-grow pl-3 font-medium ${
-                todo.status === 'completed' ? 'line-through' : ''
+              className={`font-manrope block flex-grow pl-3 text-base font-normal ${
+                todo.status === 'completed'
+                  ? 'font-manrope text-base font-normal line-through'
+                  : ''
               }`}
               htmlFor={String(todo.id)}
             >
